@@ -4,6 +4,11 @@
 void main()
 {
     int a=10;
-    printf("%d",a);
+    char message[100];
+    printf("Enter your message:");
+    gets(message);
+    printf("Enter the key:");
+    scanf("%d",&key);
+
     getch();
 }
